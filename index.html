@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- bootstrap icpn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg  bg-danger navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Feliciano</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+      
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="menu2.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="stories.html">Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="stories.html">Stories</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="menu2.html">Menu</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End-->
+
+  <!-- courosol -->
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="A New Design - Made with PosterMyWall.png" class="d-block w-100" style="height:100vh" alt="...">
+
+        <div class="row justify-content-evenly " id="items">
+          <div class="col-md-3 col-11 mt-2" id="1st">
+
+            <!-- <div class="carousel-caption d-none d-md-block"> -->
+            <h5><img class="rounded-circle img-fluid " style="width: 90px; height: 90px ;" src="https://img.freepik.com/free-photo/side-view-vegetable-salad-with-cucumber-red-onion-bell-pepper-greens-black-pepper-plate_141793-5152.jpg?w=996&t=st=1698476802~exp=1698477402~hmac=a67bed33591366f7b345994500bf355e05165f746945e91f96df1df6a88036cd"></h5>
+            <p class="text-white" id="a">
+              Fruit Salad with Cream Onion<br>
+              Onion,Potatoes,Cuccumber,Leaf
+            </p>
+            <!-- </div> -->
+
+
+          </div>
+          <div class="col-md-3 col-11" id="2nd">
+            <!-- <div class="carousel-caption d-none d-md-block"> -->
+            <h5><img class="rounded-circle img-fluid" style="width: 90px; height: 90px;" src="https://img.freepik.com/free-photo/beyti-kebab-served-with-ayran-pickles_141793-1870.jpg?w=826&t=st=1698476892~exp=1698477492~hmac=f12ef55ac811b542de27a55716ae45045260326b3c4fead9c68eaf7c0119d288"></h5>
+            <p class="text-white" id="a">
+              Grilled Chicken with potatoes<br>
+              Meat,Potatoes,Rice,Tomatoes
+            </p>
+            <!-- </div> -->
+
+          </div>
+          <div class="col-md-3 col-11 mb-2" id="3rd">
+            <!-- <div class="carousel-caption d-none d-md-block"> -->
+
+            <h5><img class="rounded-circle img-fluid" style="width: 90px; height: 90px;" src="https://img.freepik.com/free-photo/close-up-delicious-chicken-meal_23-2150741805.jpg?t=st=1698476915~exp=1698480515~hmac=7c62b5f08dc4490b683a64d03ae78baf546da99ec03f0b8722cf75efbfc4736d&w=996"></h5>
+            <p class="text-white" id="a">
+              Tosted macronie with potatoes<br>
+              Garlic,Potatoes,Corrionder,Sauce
+            </p>
+            <!-- </div> -->
+
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="healthy-vegetables-wooden-table.jpg" class="d-block w-100" style="height:100vh" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>content</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="slice-cake-wooden-board.jpg" class="d-block w-100" style="height:100vh" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- courosol End-->
+
+
+  <!-- card -->
+  <div class="container pt-5 justify-content-evenly" id="pad">
+    <div class="row " id="ca">
+      <div class="col-md-3" id="cb"><img src="https://images.unsplash.com/photo-1639747541782-8673b4682d18?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid"></div>
+      <div class="col-md-3" id="cc"><img src="https://images.unsplash.com/photo-1664309688328-578b4939b4cf?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid"></div>
+      <div class="col-md-3" id="cd">
+        <span class="subheading">About</span>
+        <h2 class="mb-4">Feliciano Restaurant</h2>
+        <p class="text-center">
+          A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+          paradisematic country, in which roasted parts of sentences<br> fly into your mouth.
+        </p>
+        <span>"Mon - Fri"</span> <strong>8 AM - 11 PM</strong>
+
+      </div>
+    </div>
+  </div>
+  <!-- card End -->
+ <!-- background overlay start-->
+ <section>
+  <div class="overlay">
+      <div class="container container-fluid pt-5" >
+          <div class="row justify-content-evenly"  id="cee">
+        <div class="col-md-2" id="f">
+          <p>
+          <h1 id="ce">18</h1> <br> <b class="text-light"> YEAR OF EXPERIANCE</b></p>
+        </div>
+        <div class="col-md-2" id="f">
+          <p>
+          <h1 id="ce">100</h1> <br> <b class="text-light">MENUS/DISH</b></p>
+        </div>
+        <div class="col-md-2" id="f">
+          <p>
+          <h1 id="ce">50</h1> <br>  <b class="text-light"> STAFFS </b></p>
+        </div>
+        <div class="col-md-2" id="f">
+          <p>
+          <h1 id="ce">15,000</h1> <br>  <b class="text-light">HAPPY CUSTOMERS</b></p>
+        </div>
+        <div class="col-md-2" id="f">
+          <p class="text-center text-light">A small river named Duden flows by their place and supplies it with the necessary
+            regelialia with all nutrients.</p>
+        </div>
+      </div>
+     
+     </div>
+
+  </div>
+ </section>
+ <!-- background overlay end-->
+
+  <!-- line -->
+
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-12">
+        <span class="subheadingg text-center"> Services</span>
+        <h2 class="mb-4 text-center">catering services</h2>
+      </div>
+    </div>
+  </div>
+  <!-- line End -->
+
+  <!-- feature -->
+  <div class="container container-fluid">
+    <div class="row justify-content-evenly mt-5">
+        <div class="col-md-3 p-3" id="ro">
+            <div  style="width:auto;">
+                <div class="card-body">
+                <div class="cta-section text-center">
+                   <h1> <i id="afv" class="bi bi-cake2"></i></h1>
+                </div>
+
+                <div class="card-title text-center">
+                   <h5> Build for developer</h5>
+                </div>
+
+                <div class="card-text text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, aspernatur vel. Magni vitae modi dolor!
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="col-md-3 p-3" id="ro">
+            <div  style="width: auto;">
+                <div class="card-body">
+                <div class="cta-section text-center">
+                   <h1><i id="afv" class="bi bi-chat-left-dots-fill"></i></h1>
+                </div>
+
+                <div class="card-title text-center">
+                   <h5> Build for developer</h5>
+                </div>
+
+                <div class="card-text text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, aspernatur vel. Magni vitae modi dolor!
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="col-md-3 p-3" id="ro">
+            <div  style="width:auto;">
+                <div class="card-body">
+                <div class="cta-section text-center">
+                   <h1><i id="afv" class="bi bi-calendar" ></i></h1>
+                </div>
+
+                <div class="card-title text-center">
+                   <h5> Build for developer</h5>
+                </div>
+
+                <div class="card-text text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, aspernatur vel. Magni vitae modi dolor!
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+ 
+  <!-- feature end-->
+
+  <!-- line -->
+
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-12">
+        <span class="subheadingg text-center" id="sub"> Specialties</span>
+        <h2 class="mb-4 text-center">Our Menu</h2>
+      </div>
+    </div>
+  </div>
+  <!-- line End -->
+
+  <!-- card -->
+
+  <div class="conatiner container-fluid">
+    <div class="row  justify-content-evenly">
+      <div class="col-md-5">
+        <div class="card mb-3" style="max-width: 540px;" id="carcol">
+          <div class="row  g-0">
+            <div class="col-md-5">
+              <img src="https://img.freepik.com/free-photo/stir-fry-chicken-zucchini-sweet-peppers-green-onion-with-chopsticks_2829-10785.jpg?w=996&t=st=1698479575~exp=1698480175~hmac=6d129023284db86d6355447c4021f9f5c3a369dd18c4f0c537e838f328c2adfc"
+                class=" img-fluid rounded-start" alt="..." id="cca">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body pt-5">
+                <h5 class="card-title" id="car">Grilles Chicken with potatoes</h5>
+                <p class="card-text">Meat, Poatatoes,Ricce,Tomatoe</p>
+                <!-- <p class="card-text " id="bt"><button  type="button" class="btn btn-outline-primary">Primary</button></p> -->
+                <span class="card-text">
+                  <p id="dol">Price: $23</p>
+                  <p class="card-text" id="bt"><button type="button" class="btn btn-outline-light"
+                      style="background-color: #c8a97e;">Order</button></p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="card mb-3" style="max-width: 540px;" id="carcol">
+          <div class="row  g-0">
+            <div class="col-md-5">
+              <img src="https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14218.jpg?w=996&t=st=1698479626~exp=1698480226~hmac=0f97b777e1b434ee2e82ef7b1bbb58470a4a2435a3425335002488bc079f3967" class=" img-fluid rounded-start" alt="..."
+                id="cca">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body pt-5">
+                <h5 class="card-title" id="car">Grilles Chicken with potatoes</h5>
+                <p class="card-text">Meat, Poatatoes,Ricce,Tomatoe</p>
+                <!-- <p class="card-text " id="bt"><button  type="button" class="btn btn-outline-primary">Primary</button></p> -->
+                <span class="card-text">
+                  <p id="dol">Price: $23</p>
+                  <p class="card-text" id="bt"><button type="button" class="btn btn-outline-light"
+                      style="background-color: #c8a97e;">Order</button></p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card end -->
+
+  <!-- card -->
+
+  <div class="conatiner container-fluid">
+    <div class="row d-flex justify-content-center">
+
+
+      <div class="col-md-5">
+        <div class="card mb-3" style="max-width: 540px;" id="carcol">
+          <div class="row  g-0">
+            <div class="col-md-5">
+              <img src="https://img.freepik.com/free-photo/birthday-cake_23-2150734952.jpg?t=st=1698478123~exp=1698481723~hmac=9f283069908a3e1e6f22b4f058ec8c1e0e1bd68fa08f78b8d1cb86e5b0e4c61f&w=1380" class=" img-fluid rounded-start" alt="..."
+                id="cca">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body pt-5">
+                <h5 class="card-title" id="car">Grilles Chicken with potatoes</h5>
+                <p class="card-text">Meat, Poatatoes,Ricce,Tomatoe</p>
+                <!-- <p class="card-text " id="bt"><button  type="button" class="btn btn-outline-primary">Primary</button></p> -->
+                <span class="card-text">
+                  <p id="dol">Price: $23</p>
+                  <p class="card-text" id="bt"><button type="button" class="btn btn-outline-light"
+                      style="background-color: #c8a97e;">Order</button></p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <div class="card mb-3" style="max-width: 540px;" id="carcol">
+          <div class="row  g-0">
+            <div class="col-md-5">
+              <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?w=996&t=st=1698480026~exp=1698480626~hmac=0f1cee9665129754dedebf02022e3e7ffb5bc80563ce3b4b0d854605f186b38b" class=" img-fluid rounded-start"
+                alt="..." id="cca">
+            </div>
+            <div class="col-md-5">
+              <div class="card-body pt-5">
+                <h5 class="card-title" id="car">Grilles Chicken with potatoes</h5>
+                <p class="card-text">Meat, Poatatoes,Ricce,Tomatoe</p>
+                <!-- <p class="card-text " id="bt"><button  type="button" class="btn btn-outline-primary">Primary</button></p> -->
+                <span class="card-text">
+                  <p id="dol">Price: $23</p>
+                  <p class="card-text" id="bt"><button type="button" class="btn btn-outline-light"
+                      style="background-color: #c8a97e;">Order</button></p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- card end -->
+
+  <!-- line -->
+
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-12">
+        <span class="subheadingg text-center" id="sub"> Chef</span>
+        <h2 class="mb-4 text-center">Our Master</h2>
+      </div>
+    </div>
+  </div>
+  <!-- line End -->
+
+  <!-- Chefs -->
+  <div class="container container-fluid">
+    <div class="row justify-content-evenly">
+      <div class="col-md-3" id="ppwid">
+        <div class="card" style="width: 18rem; " id="charrr">
+          <img src="https://img.freepik.com/free-photo/male-chef-kitchen-cooking-dish-frying-pan_23-2149646220.jpg?w=360&t=st=1698480303~exp=1698480903~hmac=96ee5b17f9c2d97e381cc6f6f684dce5bb358f2be2a33ee0db29c1324f20abcc" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">John Smooth</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <hr>
+            <p id="gap"><a href="#"><i class="bi bi-twitter" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-facebook" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-google" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-instagram" style="color: #c8a97e;"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="ppwid">
+        <div class="card" style="width: 18rem;" id="charrr">
+          <img src="https://images.unsplash.com/photo-1639747541782-8673b4682d18?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Luke Simon</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <hr>
+            <p id="gap"><a href="#"><i class="bi bi-twitter" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-facebook" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-google" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-instagram" style="color: #c8a97e;"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="ppwid">
+        <div class="card" style="width: 18rem;" id="charrr">
+          <img src="https://img.freepik.com/free-photo/studio-portrait-positive-cook-male-holds-eggplant_613910-9899.jpg?w=360&t=st=1698480390~exp=1698480990~hmac=0b32207a645dd67175bd915d68e162961c3280d23d0ed37f0782d0305f0115e4" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Kharl Branyt</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <hr>
+            <p id="gap"><a href="#"><i class="bi bi-twitter" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-facebook" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-google" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-instagram" style="color: #c8a97e;"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="ppwid">
+        <div class="card" style="width: 18rem;" id="charrr">
+          <img src="https://img.freepik.com/free-photo/medium-shot-smiley-woman-cooking_23-2149631698.jpg?w=360&t=st=1698480419~exp=1698481019~hmac=9dc6f72760738993ac2a72f282812eaaf0b1a8394f7bf909d695a7f1b4ae22c5" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rebeca Welson</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <hr>
+            <p id="gap"><a href="#"><i class="bi bi-twitter" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-facebook" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-google" style="color: #c8a97e;"></i></a>
+              <a href="#"><i class="bi bi-instagram" style="color: #c8a97e;"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Chefs End -->
+
+  <!-- backhround -->
+  <div class="container container-fluid mt-3" id="bac">
+    <div class="row" id="pack">
+      <div class="col-md-6 " style="background-color: white" id="paa">
+
+        <form class="row g-3">
+          <div class="col-md-10">
+                  <span class="subheadinggg2 text-center">Book a Table</span>
+                  <h2 class="mb-4 text-center">Make Reservation</h2> 
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12 text-center">
+       
+            <button type="submit" class="btn btn-outline-light"
+                      style="background-color: #c8a97e;">Make a Reservation</button>
+          </div>
+        </form>
+             
+      </div>
+      <div class="col-md-4">
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- backhround End-->
+
+  <!-- line -->
+
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-12">
+        <span class="subheadinggg text-center">Testimony</span>
+        <h2 class="mb-4 text-center">Happy Customer</h2>
+      </div>
+    </div>
+  </div>
+  <!-- line End -->
+
+  <!-- Customer -->
+  <div class="container container-fluid pb-5" id="bvc">
+    <div class="row justify-content-evenly">
+      <div class="col-md-3" id="ppwid">
+        <div class="card pt-3" style="width: 18rem;"id="carcol">
+          <img class="rounded img-fluid" src="https://img.freepik.com/free-photo/expressive-woman-posing-outdoor_344912-3083.jpg?w=996&t=st=1698481000~exp=1698481600~hmac=f69941eb0c165391fac83967f2390cbd5c900d5d9068ea63d73d094a66510e04" class="card-img-top"
+            alt="..." >
+          <span id="si"><i class="bi bi-quote "></i></span>
+          <div class="card-body">
+           
+            <p class="card-text text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <h5 class="card-title text-center">Rebeca Welson</h5>
+            <p class="card-text text-center"><small class="text-body-secondary">CUSTOMER</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="ppwid">
+        <div class="card pt-3" style="width: 18rem;"id="carcol">
+          <img class="rounded img-fluid" src="https://img.freepik.com/free-photo/beautiful-female-woman-biting-her-lip-face-expression-feelings-attitude_176420-15189.jpg?w=996&t=st=1698481070~exp=1698481670~hmac=caa8fc41dfbde19f39030f89e54907e6d94f070292a681466ccd309c41174801" class="card-img-top"
+            alt="...">
+          <span id="si"><i class="bi bi-quote "></i></span>
+          <div class="card-body">
+          
+            <p class="card-text text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts..</p>
+            <h5 class="card-title text-center">Art Leonard</h5>
+            <p class="card-text text-center"><small class="text-body-secondary">CUSTOMER</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="ppwid">
+        <div class="card pt-3" style="width: 18rem;" id="carcol">
+          <img class="rounded img-fluid" src="https://img.freepik.com/free-photo/portrait-happy-smiley-man_23-2149022624.jpg?w=996&t=st=1698481108~exp=1698481708~hmac=047df7caae22e3e612b8d07bdd9a8a1dcab862670740ec6ffa9b07a6836d7645" class="card-img-top"
+            alt="...">
+          <span id="si"><i class="bi bi-quote "></i></span>
+          <div class="card-body">
+           
+            <p class="card-text text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <h5 class="card-title text-center">Rebeca Welson</h5>
+            <p class="card-text text-center"><small class="text-body-secondary">CUSTOMER</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" id="ppwid">
+        <div class="card pt-3" style="width: 18rem;" id="carcol">
+          <img class="rounded img-fluid" src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?w=996&t=st=1698481149~exp=1698481749~hmac=a8e7d2b16945be05f6b7b558c54486bf48a1bfc58bde67993de8f6de41988bbc" class="card-img-top"
+            alt="...">
+          <span id="si"><i class="bi bi-quote "></i></span>
+          <div class="card-body">
+            
+            <p class="card-text text-center">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <h5 class="card-title text-center">Rebeca Welson</h5>
+            <p class="card-text text-center"><small class="text-body-secondary">CUSTOMER</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- customer End -->
+
+  <!-- Recent Posts -->
+
+    <!-- line -->
+
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12">
+          <span class="subheadingg text-center" id="sub">Blogs</span>
+          <h2 class="mb-4 text-center">Recent Posts</h2>
+        </div>
+      </div>
+    </div>
+    <!-- line End -->
+
+    <div class="container container-fluid">
+      <div class="row justify-content-evenly">
+        <div class="col-md-3" id="ppwid">
+          <div class="card " style="width: 24rem;" id="charr">
+            <img class=" img-fluid" src="https://img.freepik.com/free-photo/group-friends-eating-restaurant_23-2148006644.jpg?w=996&t=st=1698486892~exp=1698487492~hmac=97781ee22a877d6d660484676c7d018f60a5c2697398193b0aea44ea52dd34fa" class="card-img-top"
+              alt="..." >
+            <div class="card-body">
+             
+              <p class="card-text ">sept. 06,2023 Admin</p>
+              <h5 class="card-title ">Taste the delicious food in Asia</h5>
+              <div class="flex">
+                <p  class="box"><small class="text-body-secondary">Read more</small></p>
+              <p class="box"> <i  class="bi bi-chat-left-text "></i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+          <div class="col-md-3" id="ppwid">
+            <div class="card " style="width: 24rem;"id="charr">
+              <img class=" img-fluid" src="https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?w=996&t=st=1698487124~exp=1698487724~hmac=cc36b63025e0144fc368bfc80370160d2ab99c536ce51861e1978edad956b0e6" class="card-img-top"
+                alt="..." >
+              <div class="card-body">
+               
+                <p class="card-text ">sept. 06,2023 Admin</p>
+                <h5 class="card-title ">Taste the delicious food in Asia</h5>
+                <div class="flex">
+                  <p  class="box"><small class="text-body-secondary">Read more</small></p>
+                <p class="box"> <i  class="bi bi-chat-left-text "></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+       
+          <div class="col-md-3" id="ppwid">
+            <div class="card " style="width: 24rem;"id="charr">
+              <img class=" img-fluid" src="https://img.freepik.com/free-photo/happy-waiter-serving-food-group-cheerful-friends-pub_637285-12525.jpg?w=996&t=st=1698486988~exp=1698487588~hmac=462a45d5bf6d5009e466e0908d8ddfff517947ddaa9051cc34568e99dffdf1aa" class="card-img-top"
+                alt="..." >
+              <div class="card-body">
+               
+                <p class="card-text ">sept. 06,2023 Admin</p>
+                <h5 class="card-title ">Taste the delicious food in Asia</h5>
+                <div class="flex">
+                  <p  class="box"><small class="text-body-secondary">Read more</small></p>
+                <p class="box"> <i  class="bi bi-chat-left-text "></i></p>
+                </div>
+                 
+             
+              </div>
+            </div>
+          </div>
+    
+      </div>
+    </div>
+   <!-- Recent Posts End-->
+
+   <!-- footer -->
+
+   <div class="container bg-dark text-white mt-2" id="foo" >
+    <div class="row p-5">
+      <div class="col-md-3">
+        <p><h3>Feliciano</h3></p><br>
+        <p>
+          
+          Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <p id="gap"><a href="#"><i class="bi bi-twitter" style="color: #c8a97e;"></i></a>
+          <a href="#"><i class="bi bi-facebook" style="color: #c8a97e;"></i></a>
+          <a href="#"><i class="bi bi-google" style="color: #c8a97e;"></i></a>
+          <a href="#"><i class="bi bi-instagram" style="color: #c8a97e;"></i></a>
+        </p>
+      </div>
+      <div class="col-md-3">
+        <p><h3>Open Hours</h3></p><br>
+        <div>
+          <div class="flex pe-5 ps-5">
+            <p class="box">Monday</p>
+            <p class="box">9:00 - 24:00 </p>
+          </div>
+          <div class="flex pe-5 ps-5">
+            <p class="box">Tuesday</p>
+            <p class="box">9:00 - 24:00 </p>
+          </div>
+          <div class="flex pe-5 ps-5">
+            <p class="box">Wednesday</p>
+            <p class="box">9:00 - 24:00 </p>
+          </div>
+          <div class="flex pe-5 ps-5">
+            <p class="box">Thrusday</p>
+            <p class="box">9:00 - 24:00 </p>
+          </div>
+          <div class="flex pe-5 ps-5">
+            <p class="box">Friday</p>
+            <p class="box">9:00 - 24:00 </p>
+          </div>
+          <div class="flex pe-5 ps-5">
+            <p class="box">Saturday</p>
+            <p class="box">9:00 - 24:00 </p>
+          </div>
+          <div class="flex pe-5 ps-5">
+            <p class="box">Sunday</p>
+            <p class="box">9:00 - 24:00 </p>
+          </div>
+          
+         
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p><h3>Instagram</h3></p><br>
+        <div><img src="https://img.freepik.com/free-vector/square-photographic-food-banner-set_23-2148104797.jpg?w=740&t=st=1698481224~exp=1698481824~hmac=abb05a903313496e2dcb89cc116aa54923b7e60d94159e18a93c9096fa0bce97" class="img-fluid"> </div>
+      </div>
+      <div class="col-md-3">
+        <p><h3>Newsletter</h3></p><br>
+        <div><p>
+          <small class="text-body-secondary">Far far away, behind the word mountains, far from the countries.</small>
+        </p></div>
+        <div>
+          <p class="card-text" ><button type="button" class="btn btn-outline-light w-100"
+            style="background-color: rgba(255, 255, 255, 0.1);">Enter email address</button></p>
+            <p class="card-text" ><button type="button" class="btn btn-outline-light w-100"
+              style="background-color: #c8a97e;">Subscribe</button></p>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- footer End-->
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+   
+  </script>
+</body>
+
+</html>
